@@ -1,0 +1,3 @@
+[submodule "NFLQuickPlayerData"]
+	path = NFLQuickPlayerData
+	url = https://github.com/aesparza84/NFLQuickPlayerData
