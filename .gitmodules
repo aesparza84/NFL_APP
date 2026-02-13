@@ -1,3 +1,6 @@
 [submodule "NFLQuickPlayerData"]
 	path = NFLQuickPlayerData
 	url = https://github.com/aesparza84/NFLQuickPlayerData
+[submodule "Football-Scraper"]
+	path = Football-Scraper
+	url = https://github.com/aesparza84/Football-Scraper
