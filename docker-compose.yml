@@ -1,0 +1,35 @@
+services:
+
+  app:
+    build: /NFLQuickPlayerData
+    ports:
+      - "8090:8090"
+    networks:
+      - nfl-network
+
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: Football_PlayerDB
+    ports:
+      - "5433:5432"
+    networks:
+      - nfl-network
+    volumes:
+      - postgres-football-data:/var/lib/postgresql/data
+
+  scraper:
+    build: /TestingGrounds
+    ports:
+      - "8000:8000"
+    networks:
+      - nfl-network
+
+networks:
+  nfl-network:
+    driver: bridge
+
+volumes:
+  postgres-football-data:
