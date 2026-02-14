@@ -21,7 +21,7 @@ services:
       - postgres-football-data:/var/lib/postgresql/data
 
   scraper:
-    build: /TestingGrounds
+    build: /Football-Scraper
     ports:
       - "8000:8000"
     networks:
