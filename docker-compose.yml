@@ -7,18 +7,19 @@ services:
     networks:
       - nfl-network
 
-  postgres:
-    image: postgres:17
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: pass
-      POSTGRES_DB: Football_PlayerDB
-    ports:
-      - "5433:5432"
-    networks:
-      - nfl-network
-    volumes:
-      - postgres-football-data:/var/lib/postgresql/data
+#  local-dev
+#  postgres:
+#    image: postgres:17
+#    environment:
+#      POSTGRES_USER: user
+#      POSTGRES_PASSWORD: pass
+#      POSTGRES_DB: Football_PlayerDB
+#    ports:
+#      - "5433:5432"
+#    networks:
+#      - nfl-network
+#    volumes:
+#      - postgres-football-data:/var/lib/postgresql/data
 
   scraper:
     build: /Football-Scraper
@@ -31,5 +32,5 @@ networks:
   nfl-network:
     driver: bridge
 
-volumes:
-  postgres-football-data:
+#volumes:
+#  postgres-football-data:
