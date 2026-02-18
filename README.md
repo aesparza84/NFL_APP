@@ -1,4 +1,4 @@
-# NFL_APP
+# NFL Player Stats
 NFL app to quickly access offensive player data - [Link to Railway Deployment](https://app-production-e7c2.up.railway.app/home/players) 
 
 ## Built by using the following sub-modules and Docker:
