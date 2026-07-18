@@ -6,10 +6,9 @@ NFL app to quickly access offensive player data - [Link to Railway Deployment](h
 - [Pyhton Scraper](https://github.com/aesparza84/Football-Scraper/tree/8a2b8c1c868751ae93199f9ae6657b1fb125ba16)
 
 # What's Built
-- REST Controller with read-only endpoints
+- Read-only endpoints
 - Player look up
 - Team look up
-- Paginated results
 - Scraper for data collection
 
 # Tech
