@@ -5,7 +5,7 @@ NFL app to quickly access offensive player data - [Link to Railway Deployment](h
 - [Java App (backend/frontend) ](https://github.com/aesparza84/NFLQuickPlayerData/tree/42c7b66bea3f653ed3e883dcd6b9f468c828f82f)
 - [Pyhton Scraper](https://github.com/aesparza84/Football-Scraper/tree/8a2b8c1c868751ae93199f9ae6657b1fb125ba16)
 
-# Whats Built
+# What's Built
 - REST Controller with read-only endpoints
 - Player look up
 - Team look up
@@ -16,5 +16,5 @@ NFL app to quickly access offensive player data - [Link to Railway Deployment](h
 - Java
 - Spring Boot
 - PostgresSQL
-- Python  + FastAPI
+- Python + FastAPI
 - Railway
